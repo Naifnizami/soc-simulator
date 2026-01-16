@@ -1,0 +1,11 @@
+2026-01-16 17:53:01,766 - INFO - SOAR Engine started...
+2026-01-16 17:53:10,938 - WARNING - SOAR ACTION: Blocking port 445 on /subscriptions/sub-123/resourceGroups/prod/providers/Microsoft.Compute/virtualMachines/DB-Prod-01
+2026-01-16 17:53:16,088 - WARNING - SOAR ACTION: Isolating host DESKTOP-HR-DUBAI-05 due to signature '-w hidden'
+2026-01-16 17:53:20,154 - WARNING - SOAR ACTION: Blocking port 445 on /subscriptions/sub-123/resourceGroups/prod/providers/Microsoft.Compute/virtualMachines/DB-Prod-01
+2026-01-16 17:53:26,278 - WARNING - SOAR ACTION: Blocking port 445 on /subscriptions/sub-123/resourceGroups/prod/providers/Microsoft.Compute/virtualMachines/AD-Server-Backup
+2026-01-16 17:53:28,321 - WARNING - SOAR ACTION: Isolating host DESKTOP-HR-DUBAI-05 due to signature '-w hidden'
+2026-01-16 17:53:38,552 - WARNING - SOAR ACTION: Isolating host DESKTOP-HR-DUBAI-05 due to signature '-w hidden'
+2026-01-16 17:53:40,597 - WARNING - SOAR ACTION: Isolating host DESKTOP-HR-DUBAI-05 due to signature '-w hidden'
+2026-01-16 17:53:44,720 - WARNING - SOAR ACTION: Isolating host DESKTOP-HR-DUBAI-05 due to signature '-w hidden'
+2026-01-16 17:53:49,876 - WARNING - SOAR ACTION: Isolating host DESKTOP-HR-DUBAI-05 due to signature '-w hidden'
+2026-01-16 17:53:51,902 - WARNING - SOAR ACTION: Isolating host DESKTOP-HR-DUBAI-05 due to signature '-w hidden'
