@@ -5,7 +5,8 @@ from utils.logger import Logger
 
 
 class FalconTelemetrySimulator:
-    def __init__(self, log_file="falcon_logs.json"):
+    # FIX: Change default to point inside logs/ folder
+    def __init__(self, log_file="logs/falcon_logs.json"):
         self.log_file = log_file
 
         self.events = [
@@ -18,7 +19,7 @@ class FalconTelemetrySimulator:
             }
         ]
 
-        # Correct logger (no basicConfig!)
+        # This line was already correct!
         self.logger = Logger("falcon", "logs/falcon_simulator.log")
 
     def generate_event(self):

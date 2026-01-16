@@ -5,11 +5,12 @@ from utils.logger import Logger
 
 
 class AzureAlertSimulator:
-    def __init__(self, log_file="defender_logs.json"):
+    # FIX: Change default to point inside logs/ folder
+    def __init__(self, log_file="logs/defender_logs.json"):
         self.vm_names = ["DB-Prod-01", "Web-FrontEnd-UAE", "AD-Server-Backup"]
         self.log_file = log_file
 
-        # Correct logger (no basicConfig!)
+        # This line was already correct!
         self.logger = Logger("azure", "logs/azure_simulator.log")
 
     def generate_alert(self):
