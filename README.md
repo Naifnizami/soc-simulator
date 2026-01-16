@@ -36,8 +36,8 @@ graph TD
     end
 
     style C fill:#f96,stroke:#333,stroke-width:2px
-    style G fill:#f9f,stroke:#333,stroke-width:2px
-    style H fill:#f9f,stroke:#333,stroke-width:2px
+    style G fill:#f9f,stroke:#333,stroke-width:2px,color:#000
+    style H fill:#f9f,stroke:#333,stroke-width:2px,color:#000
 ```
 
 ---
